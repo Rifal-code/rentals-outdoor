@@ -455,16 +455,48 @@ function GlbHikerModel({ url }: { url: string }) {
 useGLTF.preload(STAGE_CONFIG.model.glbPath);
 
 /**
+ * ErrorBoundary untuk menangkap kegagalan loading GLB
+ * (MIME type salah di Vercel, network error, dsb.)
+ * Suspense hanya menangkap promise (loading), bukan error.
+ */
+class GlbErrorBoundary extends React.Component<
+  { children: React.ReactNode },
+  { hasError: boolean }
+> {
+  constructor(props: { children: React.ReactNode }) {
+    super(props);
+    this.state = { hasError: false };
+  }
+
+  static getDerivedStateFromError() {
+    return { hasError: true };
+  }
+
+  componentDidCatch(error: Error) {
+    console.warn('[Hiker] GLB loading failed, using procedural fallback:', error.message);
+  }
+
+  render() {
+    if (this.state.hasError) {
+      return <ProceduralHiker />;
+    }
+    return this.props.children;
+  }
+}
+
+/**
  * Komponen Utama Karakter Hiker
  * Memuat hiker.glb secara langsung dengan normalisasi Box3,
- * menampilkan ProceduralHiker sebagai fallback saat loading.
+ * menampilkan ProceduralHiker sebagai fallback saat loading atau error.
  */
 export const Hiker: React.FC<HikerProps> = ({ yaw = 0, showAxes = false }) => {
   return (
     <group rotation={[0, yaw, 0]}>
-      <React.Suspense fallback={<ProceduralHiker />}>
-        <GlbHikerModel url={STAGE_CONFIG.model.glbPath} />
-      </React.Suspense>
+      <GlbErrorBoundary>
+        <React.Suspense fallback={<ProceduralHiker />}>
+          <GlbHikerModel url={STAGE_CONFIG.model.glbPath} />
+        </React.Suspense>
+      </GlbErrorBoundary>
 
       {showAxes && <axesHelper args={[2]} />}
     </group>
