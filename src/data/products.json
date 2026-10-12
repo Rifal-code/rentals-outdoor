@@ -1,0 +1,18 @@
+[
+  { "id": "p-01", "nama": "shadow falcon 750 hardshell", "kategori": "jaket", "hargaPerHari": "[ISI NANTI]", "foto": "/assets/products/p-01.webp", "alt": "Ilustrasi sementara: Jaket Hardshell Shadow Falcon 750", "slug": "jaket-hardshell-shadow" },
+  { "id": "p-02", "nama": "alpine shield 60 carrier", "kategori": "carrier", "hargaPerHari": "[ISI NANTI]", "foto": "/assets/products/p-02.webp", "alt": "Ilustrasi sementara: Carrier Alpine Shield 60", "slug": "carrier-alpine-60" },
+  { "id": "p-03", "nama": "storm veil 2p expedition tent", "kategori": "tenda", "hargaPerHari": "[ISI NANTI]", "foto": "/assets/products/p-03.webp", "alt": "Ilustrasi sementara: Tenda Storm Veil 2P", "slug": "tenda-storm-veil-2p" },
+  { "id": "p-04", "nama": "summit trek gtx boots", "kategori": "sepatu", "hargaPerHari": "[ISI NANTI]", "foto": "/assets/products/p-04.webp", "alt": "Ilustrasi sementara: Sepatu Summit Trek GTX", "slug": "sepatu-summit-gtx" },
+  { "id": "p-05", "nama": "glacier optics pro goggles", "kategori": "kacamata", "hargaPerHari": "[ISI NANTI]", "foto": "/assets/products/p-05.webp", "alt": "Ilustrasi sementara: Kacamata Glacier Optics Pro", "slug": "glacier-optics-pro" },
+  { "id": "p-06", "nama": "aero carbon trekking pole", "kategori": "pole", "hargaPerHari": "[ISI NANTI]", "foto": "/assets/products/p-06.webp", "alt": "Ilustrasi sementara: Trekking Pole Aero Carbon", "slug": "aero-carbon-pole" },
+  { "id": "p-07", "nama": "sub-zero 800 down sleeping bag", "kategori": "tidur", "hargaPerHari": "[ISI NANTI]", "foto": "/assets/products/p-07.webp", "alt": "Ilustrasi sementara: Sleeping Bag Sub-Zero 800", "slug": "sub-zero-sleeping-bag" },
+  { "id": "p-08", "nama": "thermo-core insulated mat", "kategori": "tidur", "hargaPerHari": "[ISI NANTI]", "foto": "/assets/products/p-08.webp", "alt": "Ilustrasi sementara: Matras Tiup Thermo-Core", "slug": "thermo-core-mat" },
+  { "id": "p-09", "nama": "blaze micro canister stove", "kategori": "memasak", "hargaPerHari": "[ISI NANTI]", "foto": "/assets/products/p-09.webp", "alt": "Ilustrasi sementara: Kompor Blaze Micro Canister", "slug": "blaze-canister-stove" },
+  { "id": "p-10", "nama": "titanium cookset 1.2l", "kategori": "memasak", "hargaPerHari": "[ISI NANTI]", "foto": "/assets/products/p-10.webp", "alt": "Ilustrasi sementara: Cooking Set Titanium 1.2L", "slug": "titanium-cookset" },
+  { "id": "p-11", "nama": "lumen apex 450 headlamp", "kategori": "penerangan", "hargaPerHari": "[ISI NANTI]", "foto": "/assets/products/p-11.webp", "alt": "Ilustrasi sementara: Headlamp Lumen Apex 450", "slug": "lumen-apex-headlamp" },
+  { "id": "p-12", "nama": "storm shield 3x4 flysheet", "kategori": "tenda", "hargaPerHari": "[ISI NANTI]", "foto": "/assets/products/p-12.webp", "alt": "Ilustrasi sementara: Flysheet Storm Shield 3x4", "slug": "storm-shield-flysheet" },
+  { "id": "p-13", "nama": "ridge ultralight 40 carrier", "kategori": "carrier", "hargaPerHari": "[ISI NANTI]", "foto": "/assets/products/p-13.webp", "alt": "Ilustrasi sementara: Carrier Ridge Ultralight 40", "slug": "ridge-carrier-40" },
+  { "id": "p-14", "nama": "merino thermal layer top", "kategori": "jaket", "hargaPerHari": "[ISI NANTI]", "foto": "/assets/products/p-14.webp", "alt": "Ilustrasi sementara: Base Layer Merino Thermal", "slug": "merino-thermal-layer" },
+  { "id": "p-15", "nama": "summit crampons 10-point", "kategori": "aksesori", "hargaPerHari": "[ISI NANTI]", "foto": "/assets/products/p-15.webp", "alt": "Ilustrasi sementara: Crampons 10-Point Summit", "slug": "summit-crampons" },
+  { "id": "p-16", "nama": "dry-pack 25l waterproof bag", "kategori": "aksesori", "hargaPerHari": "[ISI NANTI]", "foto": "/assets/products/p-16.webp", "alt": "Ilustrasi sementara: Dry Bag Waterproof 25L", "slug": "dry-pack-25l" }
+]

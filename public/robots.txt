@@ -1,0 +1,6 @@
+# robots.txt for Outdoor Rental Landing Page
+User-agent: *
+Allow: /
+Disallow: /api/
+
+Sitemap: https://[ISI NANTI: domain]/sitemap.xml

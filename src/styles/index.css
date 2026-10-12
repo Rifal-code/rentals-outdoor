@@ -1,0 +1,112 @@
+@import './tokens.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Self-hosted Typography */
+@font-face {
+  font-family: 'Manrope';
+  src: url('/fonts/manrope-variable.woff2') format('woff2');
+  font-weight: 400 800;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Saira Semi Condensed';
+  src: url('/fonts/saira-semi-condensed-400.woff2') format('woff2');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Saira Semi Condensed';
+  src: url('/fonts/saira-semi-condensed-600.woff2') format('woff2');
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+
+@layer base {
+  html {
+    color-scheme: dark;
+    background-color: var(--hitam);
+    color: var(--putih);
+    font-family: 'Manrope', system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    min-height: 100vh;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Focus ring konsisten (WCAG AA) */
+  :focus-visible {
+    outline: 2px solid var(--cyan);
+    outline-offset: 2px;
+  }
+}
+
+/* Utilitas Kustom Sesuai PRD */
+@layer utilities {
+  .font-hud {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+
+  .headline-tight {
+    font-weight: 800;
+    letter-spacing: -0.04em;
+    line-height: 0.85;
+    text-transform: lowercase;
+  }
+
+  /* HUD Panel Styling */
+  .hud-panel {
+    background-color: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(4px);
+    border-radius: var(--r-box);
+  }
+
+  .hud-pill {
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: var(--r-pill);
+  }
+}
+
+/* Vertical Marquee Animations */
+@keyframes marqueeUp {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+@keyframes marqueeDown {
+  0% {
+    transform: translateY(-50%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+.animate-marquee-up {
+  animation: marqueeUp linear infinite;
+  will-change: transform;
+}
+
+.animate-marquee-down {
+  animation: marqueeDown linear infinite;
+  will-change: transform;
+}

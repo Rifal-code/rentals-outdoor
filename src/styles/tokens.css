@@ -1,0 +1,29 @@
+:root {
+  /* Warna Utama & Aksen */
+  --api: #FF4513;
+  --api-tua: #D93A0B;
+  --hitam: #0F0F0F;
+  --putih: #FFFFFF;
+  --abu-terang: #D4D7DC;
+  --abu: #8C8C8C;
+  --cyan: #22C3F5;
+
+  /* Radius */
+  --r-box: 0px;
+  --r-pill: 999px;
+  --r-input: 2px;
+
+  /* Durasi Animasi */
+  --dur-fast: 150ms;
+  --dur-base: 300ms;
+  --dur-draw: 500ms;
+  --dur-slow: 700ms;
+
+  /* Easing Curves */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-inout: cubic-bezier(0.65, 0, 0.35, 1);
+
+  /* Spacing Section */
+  --section-pad-y-mobile: 72px;
+  --section-pad-y-desktop: 128px;
+}

@@ -1,0 +1,94 @@
+[
+  {
+    "id": "prod-jaket",
+    "slug": "jaket-hardshell-shadow",
+    "nama": "shadow falcon 750",
+    "kategori": "jaket",
+    "tagline": "PERLINDUNGAN CUACA EKSTREM",
+    "deskripsi": "Jaket hardshell 3 lapis kedap air dengan ventilasi ketiak dan tudung berkontur helm. Siap menghadapi hujan badai gunung tanpa rembes.",
+    "hargaPerHari": "[ISI NANTI]",
+    "cutout": "/assets/spotlight/jaket-hardshell-shadow/cutout.webp",
+    "galeri": [
+      "/assets/spotlight/jaket-hardshell-shadow/gallery-1.webp",
+      "/assets/spotlight/jaket-hardshell-shadow/gallery-2.webp",
+      "/assets/spotlight/jaket-hardshell-shadow/gallery-3.webp"
+    ],
+    "spesifikasi": [
+      { "nilai": "100%", "satuan": "", "label": "Recycled nylon" },
+      { "nilai": "180", "satuan": "g/m²", "label": "Fabric weight" },
+      { "nilai": "20k", "satuan": "mm", "label": "Water resistance" },
+      { "nilai": "-10", "satuan": "°C", "label": "Temperature rating" },
+      { "nilai": "3L", "satuan": "", "label": "Shell construction" }
+    ],
+    "alt": "Ilustrasi sementara: Jaket Hardshell Shadow Falcon 750 tampak depan"
+  },
+  {
+    "id": "prod-carrier",
+    "slug": "carrier-alpine-60",
+    "nama": "alpine shield 60",
+    "kategori": "carrier",
+    "tagline": "DISTRIBUSI BEBAN ERGONOMIS",
+    "deskripsi": "Carrier kapasitas 50+10L dengan backsystem sirkulasi udara dan rangka aluminium ringan. Menjaga punggung tetap stabil di jalur curam.",
+    "hargaPerHari": "[ISI NANTI]",
+    "cutout": "/assets/spotlight/carrier-alpine-60/cutout.webp",
+    "galeri": [
+      "/assets/spotlight/carrier-alpine-60/gallery-1.webp",
+      "/assets/spotlight/carrier-alpine-60/gallery-2.webp",
+      "/assets/spotlight/carrier-alpine-60/gallery-3.webp"
+    ],
+    "spesifikasi": [
+      { "nilai": "60", "satuan": "L", "label": "Total volume" },
+      { "nilai": "1.6", "satuan": "kg", "label": "Frame tare weight" },
+      { "nilai": "500D", "satuan": "Cordura", "label": "Base fabric" },
+      { "nilai": "25", "satuan": "kg", "label": "Max recommended load" },
+      { "nilai": "Adj", "satuan": "", "label": "Torso harness" }
+    ],
+    "alt": "Ilustrasi sementara: Carrier Alpine Shield 60 tampak samping"
+  },
+  {
+    "id": "prod-tenda",
+    "slug": "tenda-storm-veil-2p",
+    "nama": "storm veil 2p",
+    "kategori": "tenda",
+    "tagline": "TENDA GEODESIC TAHAN BADAI",
+    "deskripsi": "Tenda 2 orang 4 musim dengan tiang paduan aluminium DAC dan vestibul ganda luas untuk memasak serta menyimpan carrier di cuaca basah.",
+    "hargaPerHari": "[ISI NANTI]",
+    "cutout": "/assets/spotlight/tenda-storm-veil-2p/cutout.webp",
+    "galeri": [
+      "/assets/spotlight/tenda-storm-veil-2p/gallery-1.webp",
+      "/assets/spotlight/tenda-storm-veil-2p/gallery-2.webp",
+      "/assets/spotlight/tenda-storm-veil-2p/gallery-3.webp"
+    ],
+    "spesifikasi": [
+      { "nilai": "2P", "satuan": "orang", "label": "Kapasitas tidur" },
+      { "nilai": "2.2", "satuan": "kg", "label": "Berat terkemas" },
+      { "nilai": "5000", "satuan": "mm", "label": "Waterproof floor" },
+      { "nilai": "DAC", "satuan": "8.5mm", "label": "Alloy poles" },
+      { "nilai": "4", "satuan": "musim", "label": "Weather tier" }
+    ],
+    "alt": "Ilustrasi sementara: Tenda Storm Veil 2P berdiri kokoh"
+  },
+  {
+    "id": "prod-sepatu",
+    "slug": "sepatu-summit-gtx",
+    "nama": "summit trek gtx",
+    "kategori": "sepatu",
+    "tagline": "TRAKSI MAKSIMAL MEDAN BASAH",
+    "deskripsi": "Sepatu gunung mid-cut dengan membran waterproof Gore-Tex dan outsole Vibram Megagrip. Melindungi pergelangan kaki dari medan berbatu licin.",
+    "hargaPerHari": "[ISI NANTI]",
+    "cutout": "/assets/spotlight/sepatu-summit-gtx/cutout.webp",
+    "galeri": [
+      "/assets/spotlight/sepatu-summit-gtx/gallery-1.webp",
+      "/assets/spotlight/sepatu-summit-gtx/gallery-2.webp",
+      "/assets/spotlight/sepatu-summit-gtx/gallery-3.webp"
+    ],
+    "spesifikasi": [
+      { "nilai": "GTX", "satuan": "Membrane", "label": "Waterproof lining" },
+      { "nilai": "Vibram", "satuan": "Megagrip", "label": "Outsole compound" },
+      { "nilai": "Mid", "satuan": "Cut", "label": "Ankle protection" },
+      { "nilai": "890", "satuan": "g/pair", "label": "Weight (Size 42)" },
+      { "nilai": "Nubuck", "satuan": "1.8mm", "label": "Upper material" }
+    ],
+    "alt": "Ilustrasi sementara: Sepatu gunung Summit Trek GTX tampak samping"
+  }
+]

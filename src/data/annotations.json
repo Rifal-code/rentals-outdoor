@@ -1,0 +1,80 @@
+[
+  {
+    "id": "item-goggles",
+    "nama": "Kacamata Gunung",
+    "kategori": "kacamata",
+    "hargaPerHari": "[ISI NANTI]",
+    "href": "/katalog?kategori=kacamata",
+    "visibleRange": [42, 6],
+    "keyframes": [
+      { "frame": 0, "x": 50, "y": 28, "labelSide": "right" },
+      { "frame": 6, "x": 58, "y": 28, "labelSide": "right" },
+      { "frame": 42, "x": 42, "y": 28, "labelSide": "left" }
+    ]
+  },
+  {
+    "id": "item-jacket",
+    "nama": "Jaket Hardshell 3L",
+    "kategori": "jaket",
+    "hargaPerHari": "[ISI NANTI]",
+    "href": "/katalog?kategori=jaket",
+    "visibleRange": [44, 10],
+    "keyframes": [
+      { "frame": 0, "x": 50, "y": 42, "labelSide": "left" },
+      { "frame": 10, "x": 56, "y": 42, "labelSide": "right" },
+      { "frame": 44, "x": 44, "y": 42, "labelSide": "left" }
+    ]
+  },
+  {
+    "id": "item-shoes",
+    "nama": "Sepatu Gunung Mid",
+    "kategori": "sepatu",
+    "hargaPerHari": "[ISI NANTI]",
+    "href": "/katalog?kategori=sepatu",
+    "visibleRange": [6, 18],
+    "keyframes": [
+      { "frame": 6, "x": 54, "y": 88, "labelSide": "right" },
+      { "frame": 12, "x": 52, "y": 88, "labelSide": "right" },
+      { "frame": 18, "x": 48, "y": 88, "labelSide": "right" }
+    ]
+  },
+  {
+    "id": "item-carrier",
+    "nama": "Carrier 50+10L",
+    "kategori": "carrier",
+    "hargaPerHari": "[ISI NANTI]",
+    "href": "/katalog?kategori=carrier",
+    "visibleRange": [16, 32],
+    "keyframes": [
+      { "frame": 16, "x": 44, "y": 45, "labelSide": "left" },
+      { "frame": 24, "x": 50, "y": 45, "labelSide": "right" },
+      { "frame": 32, "x": 56, "y": 45, "labelSide": "right" }
+    ]
+  },
+  {
+    "id": "item-pole",
+    "nama": "Trekking Pole Carbon",
+    "kategori": "pole",
+    "hargaPerHari": "[ISI NANTI]",
+    "href": "/katalog?kategori=pole",
+    "visibleRange": [30, 42],
+    "keyframes": [
+      { "frame": 30, "x": 38, "y": 65, "labelSide": "left" },
+      { "frame": 36, "x": 36, "y": 65, "labelSide": "left" },
+      { "frame": 42, "x": 40, "y": 65, "labelSide": "left" }
+    ]
+  },
+  {
+    "id": "item-buff",
+    "nama": "Buff & Beanie Merino",
+    "kategori": "aksesori",
+    "hargaPerHari": "[ISI NANTI]",
+    "href": "/katalog?kategori=aksesori",
+    "visibleRange": [34, 44],
+    "keyframes": [
+      { "frame": 34, "x": 46, "y": 20, "labelSide": "left" },
+      { "frame": 40, "x": 44, "y": 20, "labelSide": "left" },
+      { "frame": 44, "x": 48, "y": 20, "labelSide": "left" }
+    ]
+  }
+]

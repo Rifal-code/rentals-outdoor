@@ -1,0 +1,32 @@
+[
+  {
+    "id": "faq-01",
+    "tanya": "Apa saja syarat dan dokumen jaminan untuk menyewa alat?",
+    "jawab": "Penyewa wajib menitipkan KTP/SIM asli yang masih berlaku sebagai jaminan, ditambah verifikasi akun media sosial aktif. Detail deposit tunai/non-tunai: [ISI NANTI: KEBIJAKAN JAMINAN]."
+  },
+  {
+    "id": "faq-02",
+    "tanya": "Apakah tenda, carrier, dan jaket harus dicuci sebelum dikembalikan?",
+    "jawab": "Tidak perlu dicuci basah. Cukup bersihkan kotoran tanah/lumpur kasar dan keringkan dari embun. Tim kami memiliki protokol pencucian steril dan perawatan DWR khusus di gudang."
+  },
+  {
+    "id": "faq-03",
+    "tanya": "Bagaimana jika alat mengalami kerusakan atau hilang di jalur pendakian?",
+    "jawab": "Kerusakan wajar akibat cuaca atau keausan normal tidak dikenakan biaya penuh. Untuk kerusakan robek parah atau hilang, biaya penggantian mengacu pada tabel depresiasi alat: [ISI NANTI: TABEL BIAYA KERUSAKAN]."
+  },
+  {
+    "id": "faq-04",
+    "tanya": "Apakah bisa ambil alat langsung di tempat atau diantar ke rumah/stasiun?",
+    "jawab": "Bisa keduanya. Ambil langsung di gudang kami di [ISI NANTI: ALAMAT GUDANG] tanpa biaya, atau gunakan kurir instan/pengantaran terjadwal: [ISI NANTI: ONGKIR PENGANTARAN]."
+  },
+  {
+    "id": "faq-05",
+    "tanya": "Berapa minimal durasi sewa dan bagaimana perhitungan hari sewanya?",
+    "jawab": "Durasi sewa minimal adalah 2 hari (hari ambil dan hari kembali dihitung fleksibel). Jam operasional pengambilan dan pengembalian: [ISI NANTI: JAM OPERASIONAL]."
+  },
+  {
+    "id": "faq-06",
+    "tanya": "Apakah bisa membatalkan atau mengubah tanggal sewa jika cuaca buruk?",
+    "jawab": "Perubahan tanggal sewa gratis maksimal H-2 keberangkatan. Untuk pembatalan karena penutupan jalur resmi taman nasional: [ISI NANTI: KEBIJAKAN REFUND CUACA]."
+  }
+]

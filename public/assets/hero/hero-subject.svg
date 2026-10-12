@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" fill="none">
+  <!-- Siluet jaket dan badan pendaki kontras tinggi hitam-putih -->
+  <defs>
+    <radialGradient id="hoodGlow" cx="50%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#2A2A2A"/>
+      <stop offset="100%" stop-color="#0F0F0F"/>
+    </radialGradient>
+    <linearGradient id="lensReflect" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.8"/>
+      <stop offset="30%" stop-color="#333333"/>
+      <stop offset="70%" stop-color="#111111"/>
+      <stop offset="100%" stop-color="#22C3F5" stop-opacity="0.4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Bahu dan torso pendaki -->
+  <path d="M 120 1000 L 160 700 C 180 560 220 480 290 420 C 320 395 340 370 350 350 L 450 350 C 460 370 480 395 510 420 C 580 480 620 560 640 700 L 680 1000 Z" fill="#0A0A0A" />
+
+  <!-- Lipatan kain jaket & bayangan tekstur -->
+  <path d="M 290 420 C 270 550 250 720 230 1000" stroke="#222222" stroke-width="4" />
+  <path d="M 510 420 C 530 550 550 720 570 1000" stroke="#1A1A1A" stroke-width="4" />
+  <path d="M 400 480 L 400 1000" stroke="#333333" stroke-width="3" stroke-dasharray="8 6" />
+
+  <!-- Kerudung hardshell (Hood) -->
+  <path d="M 270 420 C 250 360 260 220 320 140 C 370 70 430 70 480 140 C 540 220 550 360 530 420 C 500 480 460 500 400 500 C 340 500 300 480 270 420 Z" fill="url(#hoodGlow)" stroke="#1F1F1F" stroke-width="2" />
+
+  <!-- Kerah tinggi menutup leher/mulut -->
+  <path d="M 330 360 C 340 440 460 440 470 360 C 470 310 450 290 400 290 C 350 290 330 310 330 360 Z" fill="#141414" />
+  <path d="M 398 320 L 398 440" stroke="#444444" stroke-width="2" />
+
+  <!-- Kacamata gunung (Mountaineering Goggles) -->
+  <!-- Bingkai kacamata -->
+  <rect x="315" y="220" width="170" height="75" rx="20" fill="#050505" stroke="#FFFFFF" stroke-width="2" stroke-opacity="0.8" />
+  <!-- Lensa reflektif besar -->
+  <rect x="323" y="228" width="154" height="59" rx="14" fill="url(#lensReflect)" />
+  <!-- Kilau refleksi cahaya diagonal pada lensa -->
+  <path d="M 340 232 L 390 232 L 365 283 L 325 283 Z" fill="#FFFFFF" fill-opacity="0.25" />
+  <path d="M 405 232 L 435 232 L 415 283 L 390 283 Z" fill="#FFFFFF" fill-opacity="0.15" />
+
+  <!-- Strap kacamata melingkar ke samping kerudung -->
+  <path d="M 315 250 L 270 265" stroke="#111111" stroke-width="12" />
+  <path d="M 485 250 L 530 265" stroke="#111111" stroke-width="12" />
+
+  <!-- Tali serut kerudung (hood drawcords) -->
+  <path d="M 340 420 Q 330 480 345 540" stroke="#FFFFFF" stroke-width="2" stroke-opacity="0.6" fill="none" />
+  <circle cx="345" cy="542" r="3" fill="#FFFFFF" />
+  <path d="M 460 420 Q 470 480 455 540" stroke="#FFFFFF" stroke-width="2" stroke-opacity="0.6" fill="none" />
+  <circle cx="455" cy="542" r="3" fill="#FFFFFF" />
+</svg>
