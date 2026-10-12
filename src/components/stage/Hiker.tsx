@@ -493,7 +493,7 @@ export const Hiker: React.FC<HikerProps> = ({ yaw = 0, showAxes = false }) => {
   return (
     <group rotation={[0, yaw, 0]}>
       <GlbErrorBoundary>
-        <React.Suspense fallback={<ProceduralHiker />}>
+        <React.Suspense fallback={null}>
           <GlbHikerModel url={STAGE_CONFIG.model.glbPath} />
         </React.Suspense>
       </GlbErrorBoundary>
